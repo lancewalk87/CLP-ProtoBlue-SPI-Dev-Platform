@@ -1,5 +1,4 @@
 ## ProtoBlue - General Purpose Digital Dev/Debug Platform
-##### CLP SPI-Dev Platform
 
 #### The ProtoBlue is capable of interfacing with any USB or Wifi/BlueTooth Enabled device, this allows for dynamic and convenient production testing via it's numerous onboard GPIO configurations and peripheral I/0. Capable of transceiving data of up to 72.2Mbps, the ESP8266EX Wireless chip offers a standard Wifi enabled (implementing TCP/IP as well as WLAN MAC protocols) baseband, clocked at 2.4GHz (Rx/Tx) making connection to the debugger ubiquitious amoungest all modern devices. In addition to efficent onboard power management (See Schematic Pg.3 - System Power Diagram), the device is capable of functioning independent of a sustained power supply and has an onboard 3.7v 560mAH LIPO battery complete with Temp Sense for safe and efficent battery rechargablity when the device is plugged in. 
 
