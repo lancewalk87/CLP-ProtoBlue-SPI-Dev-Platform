@@ -8,7 +8,7 @@
 #### The ProtoBlue, as mentioned above, is capable of performing debug sessions without an additional MCU because the Primary MCU is not integral to the device's Power Management, USB, Wireless, or NAND Flash Memory functionality. Meaning the massive WS2812Bx48 Individually Addressable RGB LED Arrary can be used for a vast number of things ranging from validating data manipulative software (i.e. bitwise tests, timer tests, ttl comparisons), to the implementation of algorithms (i.e. Recursive, Backtracking, Divide/Conquer, Randomizing), to the optimization of the Device RunCycle (i.e. Multithreading, Preprocessing, Error/Exception Handling), to the efficent delegation of finite System resources (SRAM Deallocation/Allocation, Encryption/Overwriting of superfluous data, Conserving Energy by Shifting Power Modes). In conjunction to the LED Array, there are also Buttons connected to the Primary MCU, allowing for variable tacticle user inputs. 
 
 ## Architecture Support & Device Compatibility
-
+#### The debug platform is capable of connecting to any device whose controller has ISP capabilities, this will include the vast majority of main line MCUs; including that of PIC series, and AVR series Microcontrollers. Depending on the MCU FlashROM made accessible to the ProtoBlue, the device will be capable of interfacing with the registers to grant access to the complex and detailed debuging tools defined above. 
 
 ## Debugging & Programming Targets
 
@@ -16,8 +16,14 @@
 #### Make the proper ICSP connections to your target device's SPI (VCC, GND, MOSI, MISO, SCK, RESET), the ProtoBlue will interpret the target's signature and attempt to evaluate any preexisting EEPROM data. After configuring any neccesary ICSP variables, and cacheing a record of the debug session to it's NAND Flash Storage for later evaluation, the ProtoBlue will begin programming your target with the specefied code. You can review active or past debug sessions in the "debug" view of whatever client device you're using to carry out your tests (See Project Overview for full details on the Native Client environments).
 
 ### Debugging Your Target
-#### 
+#### Once your target has been uploaded with a binary, and is executing the instruction set accordingly you will be able to begin your debug session. After the ProtoBlue has completed programming over ISP, the user portal will give the option to begin a serial debug session. If you wish to proceed in debugging, select continue, and set the debug session settings when the window to do so presents itself. 
+
+#### These presets allows you to define the session's level of detail, certain types of debug sessions don't require massive amounts of detail, while others do, these presets allow you to determine that accuracy before the the initialization of the testing process. Once the session has been defined, the Protoblue will begin monitoring the target in a similar fashion to a typical JTag device. 
+
+#### When you have observed the behavior you either expected or did not expect, you can terminate the debug session and save it to your project cache. 
 
 ### Bootloading Your Target
-#### 
+#### The onboard NANDFlash has allocated stoarge space to industry standard Bootloaders, the most prominent of which being the Ardunio Bootloader for AVR series Microcontrollers. For this example we will use this bootloader to demonstrate how to successfully bootload a target, though please note, you can upload any bootloader to your ProtoBlue and be successful in uploading it to a target. 
+
+#### To bootload a target you must connect the ProtoBlue via ISCP to your target's ICSP. 
 
