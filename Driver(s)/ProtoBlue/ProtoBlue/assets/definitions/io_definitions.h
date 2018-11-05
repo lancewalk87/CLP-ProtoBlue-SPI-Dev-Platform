@@ -6,22 +6,22 @@
  * Copyright � 2018 CodeLife-Productions. All rights reserved.
 --------------------------------------------------------------------------------------------
  * AVR: [ATmega644P 20AU] I/O:
- * Counters							= Prescaler and Comparator x2
- * PWM Channels						= 6
- * ADC Channels						= 10-bit x8
- * General Purpose I/O				= 32
- * Ports							=
- * Total Pins						= 44
+ * Counters	= Prescaler and Comparator x2
+ * PWM Channels	= 6
+ * ADC Channels	= 10-bit x8
+ * General Purpose I/O = 32
+ * Ports = 4
+ * Total Pins = 44
 --------------------------------------------------------------------------------------------
- * Categorical Prefixes:	| Port/Registers:		| Pins:
- * SPI				= SPI	| B = 0x24,0x25			| PB4, PB5, PB6, PB7
- * Charger			= CHG	| A = 0x20,0x22			| PA0
- * Battery			= BATT	| A = 0x20				| PA1, PA2, PA3
- * nRF24L01 SPI		= NRF	| A = 0x21,0x22			| PB4, PA4
- * KSZ8851SNL SPI	= ETH	| A = 0x21,0x22			| PA5
- * LEDs				= LED	| D = 0x2A,0x2B			| PD4, PD5, PD6
- * LCD_TFT			= LCD	| B = 0x24,0X25			| PB0, PB1, PB2, PB3, PB4
- * Buttons			= BTN	| C = 0x26,0x27,0x28	| PC3, PC4, PC4, PC6, PC7
+ * Categorical Prefixes: | Port/Registers: | Pins:
+ * SPI = SPI | B = 0x24,0x25| PB4, PB5, PB6, PB7
+ * Charger = CHG | A = 0x20,0x22 | PA0
+ * Battery = BATT | A = 0x20 | PA1, PA2, PA3
+ * nRF24L01 SPI = NRF | A = 0x21,0x22 | PB4, PA4
+ * KSZ8851SNL SPI = ETH	| A = 0x21,0x22 | PA5
+ * LEDs = LED | D = 0x2A,0x2B | PD4, PD5, PD6
+ * LCD_TFT = LCD | B = 0x24,0X25 | PB0, PB1, PB2, PB3, PB4
+ * Buttons = BTN | C = 0x26,0x27,0x28 | PC3, PC4, PC4, PC6, PC7
 --------------------------------------------------------------------------------------------
  */
 
