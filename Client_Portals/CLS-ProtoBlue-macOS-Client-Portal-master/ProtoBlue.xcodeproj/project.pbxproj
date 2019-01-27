@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176C021D2182463E0050D0BB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176C021C2182463E0050D0BB /* InterfaceController.swift */; };
+		17D5FE72217AA4200023E266 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D5FE71217AA4200023E266 /* AppDelegate.m */; };
+		17D5FE74217AA4210023E266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D5FE73217AA4210023E266 /* Assets.xcassets */; };
+		17D5FE77217AA4210023E266 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17D5FE75217AA4210023E266 /* MainMenu.xib */; };
+		17D5FE7A217AA4210023E266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D5FE79217AA4210023E266 /* main.m */; };
+		17D5FE85217AA4210023E266 /* ProtoBlueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D5FE84217AA4210023E266 /* ProtoBlueTests.m */; };
+		17D5FE90217AA4210023E266 /* ProtoBlueUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D5FE8F217AA4210023E266 /* ProtoBlueUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17D5FE81217AA4210023E266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D5FE65217AA4200023E266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D5FE6C217AA4200023E266;
+			remoteInfo = ProtoBlue;
+		};
+		17D5FE8C217AA4210023E266 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D5FE65217AA4200023E266 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D5FE6C217AA4200023E266;
+			remoteInfo = ProtoBlue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176C021B2182463E0050D0BB /* ProtoBlue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProtoBlue-Bridging-Header.h"; sourceTree = "<group>"; };
+		176C021C2182463E0050D0BB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		17D5FE6D217AA4200023E266 /* ProtoBlue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoBlue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D5FE70217AA4200023E266 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17D5FE71217AA4200023E266 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17D5FE73217AA4210023E266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17D5FE76217AA4210023E266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		17D5FE78217AA4210023E266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D5FE79217AA4210023E266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17D5FE7B217AA4210023E266 /* ProtoBlue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProtoBlue.entitlements; sourceTree = "<group>"; };
+		17D5FE80217AA4210023E266 /* ProtoBlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoBlueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D5FE84217AA4210023E266 /* ProtoBlueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoBlueTests.m; sourceTree = "<group>"; };
+		17D5FE86217AA4210023E266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D5FE8B217AA4210023E266 /* ProtoBlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtoBlueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D5FE8F217AA4210023E266 /* ProtoBlueUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoBlueUITests.m; sourceTree = "<group>"; };
+		17D5FE91217AA4210023E266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D5FE6A217AA4200023E266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D5FE7D217AA4210023E266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D5FE88217AA4210023E266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176C0218218246230050D0BB /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		176C0219218246290050D0BB /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				176C021C2182463E0050D0BB /* InterfaceController.swift */,
+				176C021A218246300050D0BB /* ViewControllers */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		176C021A218246300050D0BB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		176C021E2182464D0050D0BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				176C021B2182463E0050D0BB /* ProtoBlue-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		176C021F218247040050D0BB /* CLPDevice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CLPDevice;
+			sourceTree = "<group>";
+		};
+		17D5FE64217AA4200023E266 = {
+			isa = PBXGroup;
+			children = (
+				17D5FE6F217AA4200023E266 /* ProtoBlue */,
+				17D5FE83217AA4210023E266 /* ProtoBlueTests */,
+				17D5FE8E217AA4210023E266 /* ProtoBlueUITests */,
+				17D5FE6E217AA4200023E266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17D5FE6E217AA4200023E266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D5FE6D217AA4200023E266 /* ProtoBlue.app */,
+				17D5FE80217AA4210023E266 /* ProtoBlueTests.xctest */,
+				17D5FE8B217AA4210023E266 /* ProtoBlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17D5FE6F217AA4200023E266 /* ProtoBlue */ = {
+			isa = PBXGroup;
+			children = (
+				176C0219218246290050D0BB /* Interface */,
+				176C0218218246230050D0BB /* Utilites */,
+				176C021F218247040050D0BB /* CLPDevice */,
+				17D5FE70217AA4200023E266 /* AppDelegate.h */,
+				17D5FE71217AA4200023E266 /* AppDelegate.m */,
+				17D5FE73217AA4210023E266 /* Assets.xcassets */,
+				17D5FE75217AA4210023E266 /* MainMenu.xib */,
+				17D5FE78217AA4210023E266 /* Info.plist */,
+				17D5FE79217AA4210023E266 /* main.m */,
+				17D5FE7B217AA4210023E266 /* ProtoBlue.entitlements */,
+				176C021E2182464D0050D0BB /* Supporting Files */,
+			);
+			path = ProtoBlue;
+			sourceTree = "<group>";
+		};
+		17D5FE83217AA4210023E266 /* ProtoBlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				17D5FE84217AA4210023E266 /* ProtoBlueTests.m */,
+				17D5FE86217AA4210023E266 /* Info.plist */,
+			);
+			path = ProtoBlueTests;
+			sourceTree = "<group>";
+		};
+		17D5FE8E217AA4210023E266 /* ProtoBlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17D5FE8F217AA4210023E266 /* ProtoBlueUITests.m */,
+				17D5FE91217AA4210023E266 /* Info.plist */,
+			);
+			path = ProtoBlueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17D5FE6C217AA4200023E266 /* ProtoBlue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D5FE94217AA4210023E266 /* Build configuration list for PBXNativeTarget "ProtoBlue" */;
+			buildPhases = (
+				17D5FE69217AA4200023E266 /* Sources */,
+				17D5FE6A217AA4200023E266 /* Frameworks */,
+				17D5FE6B217AA4200023E266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtoBlue;
+			productName = ProtoBlue;
+			productReference = 17D5FE6D217AA4200023E266 /* ProtoBlue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17D5FE7F217AA4210023E266 /* ProtoBlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D5FE97217AA4210023E266 /* Build configuration list for PBXNativeTarget "ProtoBlueTests" */;
+			buildPhases = (
+				17D5FE7C217AA4210023E266 /* Sources */,
+				17D5FE7D217AA4210023E266 /* Frameworks */,
+				17D5FE7E217AA4210023E266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D5FE82217AA4210023E266 /* PBXTargetDependency */,
+			);
+			name = ProtoBlueTests;
+			productName = ProtoBlueTests;
+			productReference = 17D5FE80217AA4210023E266 /* ProtoBlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17D5FE8A217AA4210023E266 /* ProtoBlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D5FE9A217AA4210023E266 /* Build configuration list for PBXNativeTarget "ProtoBlueUITests" */;
+			buildPhases = (
+				17D5FE87217AA4210023E266 /* Sources */,
+				17D5FE88217AA4210023E266 /* Frameworks */,
+				17D5FE89217AA4210023E266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D5FE8D217AA4210023E266 /* PBXTargetDependency */,
+			);
+			name = ProtoBlueUITests;
+			productName = ProtoBlueUITests;
+			productReference = 17D5FE8B217AA4210023E266 /* ProtoBlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D5FE65217AA4200023E266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "CodeLife-Productions";
+				TargetAttributes = {
+					17D5FE6C217AA4200023E266 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					17D5FE7F217AA4210023E266 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17D5FE6C217AA4200023E266;
+					};
+					17D5FE8A217AA4210023E266 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17D5FE6C217AA4200023E266;
+					};
+				};
+			};
+			buildConfigurationList = 17D5FE68217AA4200023E266 /* Build configuration list for PBXProject "ProtoBlue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17D5FE64217AA4200023E266;
+			productRefGroup = 17D5FE6E217AA4200023E266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D5FE6C217AA4200023E266 /* ProtoBlue */,
+				17D5FE7F217AA4210023E266 /* ProtoBlueTests */,
+				17D5FE8A217AA4210023E266 /* ProtoBlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17D5FE6B217AA4200023E266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D5FE74217AA4210023E266 /* Assets.xcassets in Resources */,
+				17D5FE77217AA4210023E266 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D5FE7E217AA4210023E266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D5FE89217AA4210023E266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D5FE69217AA4200023E266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176C021D2182463E0050D0BB /* InterfaceController.swift in Sources */,
+				17D5FE7A217AA4210023E266 /* main.m in Sources */,
+				17D5FE72217AA4200023E266 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D5FE7C217AA4210023E266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D5FE85217AA4210023E266 /* ProtoBlueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D5FE87217AA4210023E266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D5FE90217AA4210023E266 /* ProtoBlueUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17D5FE82217AA4210023E266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D5FE6C217AA4200023E266 /* ProtoBlue */;
+			targetProxy = 17D5FE81217AA4210023E266 /* PBXContainerItemProxy */;
+		};
+		17D5FE8D217AA4210023E266 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D5FE6C217AA4200023E266 /* ProtoBlue */;
+			targetProxy = 17D5FE8C217AA4210023E266 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17D5FE75217AA4210023E266 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17D5FE76217AA4210023E266 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17D5FE92217AA4210023E266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17D5FE93217AA4210023E266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17D5FE95217AA4210023E266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ProtoBlue/ProtoBlue.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = ProtoBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.ProtoBlue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProtoBlue/Supporting Files/ProtoBlue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		17D5FE96217AA4210023E266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ProtoBlue/ProtoBlue.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = ProtoBlue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.ProtoBlue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ProtoBlue/Supporting Files/ProtoBlue-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		17D5FE98217AA4210023E266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = ProtoBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.ProtoBlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoBlue.app/Contents/MacOS/ProtoBlue";
+			};
+			name = Debug;
+		};
+		17D5FE99217AA4210023E266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = ProtoBlueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.ProtoBlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtoBlue.app/Contents/MacOS/ProtoBlue";
+			};
+			name = Release;
+		};
+		17D5FE9B217AA4210023E266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = ProtoBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.ProtoBlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProtoBlue;
+			};
+			name = Debug;
+		};
+		17D5FE9C217AA4210023E266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = ProtoBlueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.ProtoBlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProtoBlue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D5FE68217AA4200023E266 /* Build configuration list for PBXProject "ProtoBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D5FE92217AA4210023E266 /* Debug */,
+				17D5FE93217AA4210023E266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D5FE94217AA4210023E266 /* Build configuration list for PBXNativeTarget "ProtoBlue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D5FE95217AA4210023E266 /* Debug */,
+				17D5FE96217AA4210023E266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D5FE97217AA4210023E266 /* Build configuration list for PBXNativeTarget "ProtoBlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D5FE98217AA4210023E266 /* Debug */,
+				17D5FE99217AA4210023E266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D5FE9A217AA4210023E266 /* Build configuration list for PBXNativeTarget "ProtoBlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D5FE9B217AA4210023E266 /* Debug */,
+				17D5FE9C217AA4210023E266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17D5FE65217AA4200023E266 /* Project object */;
+}

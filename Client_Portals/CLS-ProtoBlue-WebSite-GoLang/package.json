@@ -1,0 +1,23 @@
+{
+  "name": "protobluewebsite",
+  "version": "1.0.0",
+  "description": "This website is constructed to help ProtoBlue users get connected to their Dev/Debug SPI device",
+  "main": "",
+  "scripts": {
+    "start": "fresh -c fresh-runner.conf",
+    "start:once": "go run main.go",
+    "dev": "webpack -d --watch",
+    "build": "webpack -p --watch",
+    "test": "go test ./..."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancewalk87/CLS-ProtoBlue-WebSite-GoLang.git"
+  },
+  "author": "Lance T. Walker <www.walkerlance65@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/lancewalk87/CLS-ProtoBlue-WebSite-GoLang#README",
+  "dependencies": {
+    "webpack": "^4.25.1"
+  }
+}

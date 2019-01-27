@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "D:\\Projects\\ProtoBlue\\Client Portal\\ProtoBlue-Android\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\walke\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"D:\\Projects\\ProtoBlue\\Client Portal\\ProtoBlue-Android\\app\\.externalNativeBuild\\cmake\\debug\\x86\" --target clean"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "C:\\Users\\walke\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build \"D:\\Projects\\ProtoBlue\\Client Portal\\ProtoBlue-Android\\app\\.externalNativeBuild\\cmake\\debug\\x86\" --target native-lib",
+      "abi": "x86",
+      "output": "D:\\Projects\\ProtoBlue\\Client Portal\\ProtoBlue-Android\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libnative-lib.so"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+D:/Projects/ProtoBlue/Client Portal/ProtoBlue-Android/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/native-lib.dir
+D:/Projects/ProtoBlue/Client Portal/ProtoBlue-Android/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+D:/Projects/ProtoBlue/Client Portal/ProtoBlue-Android/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
