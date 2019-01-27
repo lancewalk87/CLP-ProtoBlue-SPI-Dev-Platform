@@ -6,8 +6,6 @@
  * Copyright © 2018 CodeLife-Productions. All rights reserved.
  */ 
 
-#include "main.h"
-
 int main(int argc, char *argv[]) {
 	while (1) {
 		
