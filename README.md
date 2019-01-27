@@ -1,11 +1,11 @@
 # ProtoBlue SPI Development Platform
 
 ### Project Structure:
-* [**docs**](): Project Documentation.
-* [**Drivers**](): Device System Software.
-* [**Models**](): Device Hardware.
-* [**PCBs**](): Device Circuits.
-* [**Schematics**](): Device Schematics.  
+* [**docs**](https://github.com/lancewalk87/CLP-ProtoBlue-SPI-Dev-Platform/tree/master/docs/data_sheets): Project Documentation.
+* [**Drivers**](https://github.com/lancewalk87/CLP-ProtoBlue-SPI-Dev-Platform/tree/master/Drivers): Device System Software.
+* [**Models**](https://github.com/lancewalk87/CLP-ProtoBlue-SPI-Dev-Platform/tree/master/Models): Device Hardware.
+* [**PCBs**](https://github.com/lancewalk87/CLP-ProtoBlue-SPI-Dev-Platform/tree/master/PCBs): Device Circuits.
+* [**Schematics**](https://github.com/lancewalk87/CLP-ProtoBlue-SPI-Dev-Platform/tree/master/Schematics): Device Schematics.  
 
 General - General Purpose Digital Dev/Debug Platform
 ----------------------------------------------------
